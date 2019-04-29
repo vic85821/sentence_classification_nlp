@@ -1,0 +1,8 @@
+torch==1.0.1
+tqdm
+numpy
+python-box
+pyyaml
+ipdb
+spacy
+git+https://github.com/huggingface/pytorch-pretrained-BERT.git

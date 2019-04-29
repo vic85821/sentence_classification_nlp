@@ -1,0 +1,22 @@
+{
+    "arch": "ELMo",
+    "train": "./dataset/train",
+    "wordmap": "./dataset/wordmap.pkl",
+    "charmap": "./dataset/charmap.pkl",
+    "model": {
+        "valid": "./dataset/valid.pkl",
+        
+        "batch_size": 64,
+        "max_epochs": 100,
+        "learning_rate": 1e-3,
+        "weight_decay": 1e-5,
+        "n_workers": 2
+    },
+    
+    "callbacks": {
+        "mode": "min",
+        "monitor": "loss",
+        "verbose": 1,
+        "early_stop": 15
+    }
+}

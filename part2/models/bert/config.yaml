@@ -1,0 +1,20 @@
+random_seed: 8981
+device:
+  type: cuda
+  ordinal: 0
+dataset_dir: './bert_dataset/'
+data_loader:
+  max_sent_len: 128
+  batch_size: 32
+  n_workers: 4
+net:
+  bert_pretrain: 'bert-base-uncased'
+  num_labels: 5
+optim:
+  kwargs:
+    lr: 3.0e-6
+    warmup: 0.1
+train:
+  n_epochs: 15
+  max_grad_norm: 1
+  n_gradient_accumulation_steps: 1  # Must be a divider of data_loader.batch_size.

@@ -1,0 +1,12 @@
+{
+    "root": "./dataset",
+    "corpus_path": "../corpus_tokenized.txt",
+    "n_workers": 16,
+    
+    "num_train": 1000000,
+    
+    "dataset": {
+        "sentence_padded_len": 64,
+        "char_padded_len": 10
+    }
+}
