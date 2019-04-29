@@ -1,6 +1,8 @@
 # Sentence Classification with the BERT embedding
 This part is using the BERT as the word embedding and the pre-trained sentence classification network. BERT is a powerful embedding method which is proposed by Google Inc. It can be used as the contextualized embedding and improve the performance of many tasks. 
+
 BERT paper: https://arxiv.org/abs/1810.04805
+
 pytorch BERT: https://github.com/huggingface/pytorch-pretrained-BERT?fbclid=IwAR1ET0c2XANJ9QLnezsEeJyV4WcoKjj0snIuuTtGNP9nMlBN5C9DVdbpHMI
 
 ## Requirements
