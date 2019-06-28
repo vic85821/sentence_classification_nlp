@@ -17,6 +17,12 @@ ref: https://arxiv.org/pdf/1802.05365.pdf
 
 ## Training
 
+### Download
+There are `corpus.pkl` and the pre-trained elmo model.
+```
+    bash ../download.sh
+```
+
 ### Preprocessing
 * put or create the `config.json` in the dataset folder (there is an example in the `./dataset`)
 
@@ -40,12 +46,6 @@ and it will generate these files
 start to train
 ```
     python train model_dir [--device cuda_device] [--load model_path]
-```
-
-### Pre-trained model
-download
-```
-    bash ../download.sh
 ```
 
 ### Use for embedding model
